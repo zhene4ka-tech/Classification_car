@@ -1,0 +1,17 @@
+
+
+{
+    "learning_rate" : 0.001,
+    "epochs" : 1,
+    "horizontal_flip" : true,
+    "loss_function" : "categorical_crossentropy",
+    "metrics" : ["accuracy"],
+    "optimiser" : "adam",
+    "batch_size" : 32,
+    "checkpoint_path": "best_models/best_model.hdf5",
+    "checkpoint_monitor": "val_loss",
+    "early_patience": 5,
+    "early_monitor": "val_loss",
+    "reduce_patience": 2,
+    "reduce_monitor": "val_loss"
+}

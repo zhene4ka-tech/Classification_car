@@ -1,0 +1,14 @@
+
+{
+    "rescale" : 0.004,
+    "rotation_range" : 15,
+    "brightness_range" : [0.5, 1.5],
+    "horizontal_flip" : true,
+    "fill_mode" : "reflect",
+    "zoom_range" : 0.1,
+    "validation_split" : 0.2,
+    "directory": "data/train/train",
+    "seed": 1337,
+    "batch_size": 32,
+    "target_size": [240,240]
+}
