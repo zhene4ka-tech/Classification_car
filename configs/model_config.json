@@ -2,7 +2,7 @@
 {
     "base_model" : "Densenet",
     "include_top" : false,
-    "input_shape" : [32,32,3],
+    "input_shape" : [240,240,3],
     "units" : [256, 512, 1024],
     "activation" : "relu",
     "rates" : [0.15, 0.3, 0.5],
