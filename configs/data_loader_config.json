@@ -9,6 +9,6 @@
     "validation_split" : 0.2,
     "directory": "data/train/train",
     "seed": 1337,
-    "batch_size": 32,
-    "target_size": [240,240]
+    "batch_size": 24,
+    "target_size": [200,200]
 }
