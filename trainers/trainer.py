@@ -1,5 +1,6 @@
 from trainers.trainer_setup import optimisers, plot_history
 from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping, ReduceLROnPlateau
+from IPython.display import clear_output
 
 
 class ModelTrainer:
@@ -27,6 +28,7 @@ class ModelTrainer:
                 callbacks= self.callbacks,
                 validation_data= data_val
                                     )
+            clear_output(wait=True)
             plot_history(history)
 
 
