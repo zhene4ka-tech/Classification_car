@@ -21,3 +21,4 @@ def plot_history(history):
   plt.ylim([0,1])
   plt.plot(history.history["accuracy"])
   plt.plot(history.history["val_accuracy"])
+  plt.show()
